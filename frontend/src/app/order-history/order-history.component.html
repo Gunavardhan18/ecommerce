@@ -1,0 +1,36 @@
+<app-header></app-header>
+
+<div class="container p-5">
+    <div class="fs-1 fw-bold mb-5">Order History</div>
+    <div *ngIf="empty" class="display-1 fw-light">You haven't ordered anything yet! :(</div>
+    <div *ngFor="let order of orders" class="d-flex p-2 border">
+        <div class="col d-flex">
+            <div class="col-3">
+                <a (click)="goToProductDetail(order.oid)" href="javascript:void(0)"><img [src]="order.imgs[0]" alt=""
+                        class="shadow-lg"></a>
+            </div>
+            <div class="col d-flex flex-column justify-content-between mx-4 my-2">
+                <div>
+                    <div class="fs-5">{{order.name}}</div>
+                    <div class="fw-light">Color: {{order.color}}</div>
+                    <span class="badge rounded-pill bg-secondary text-uppercase me-1">{{order.size}}</span>
+                </div>
+                <div><span class="fs-5 me-1">Ordered</span><span class="text-success">(Expected Delivery : Within 5
+                        days)</span></div>
+            </div>
+        </div>
+        <div class="col d-flex my-2">
+            <div class="col-3 fw-light px-4">Quantity: {{order.qty}}</div>
+            <div class="col-4 d-flex align-items-end text-primary px-4">ORDER DETAILS</div>
+            <div class="col d-flex flex-column justify-content-between mx-4">
+                <div>
+                    <div class="fs-5">&#8377; {{order.totalPrice}}</div>
+                    <div class="small text-muted">(Including all taxes)</div>
+                </div>
+                <div class="text-primary">DOWNLOAD INVOICE</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

@@ -1,0 +1,108 @@
+<app-header></app-header>
+
+<div class="px-5">
+    <nav aria-label="breadcrumb" class="my-5">
+        <ol class="breadcrumb fw-light">
+            <li class="breadcrumb-item"><a href="#" class="text-decoration-none">Home</a></li>
+            <li class="breadcrumb-item"><a (click)="goToProductListing()" href="javascript:void(0)"
+                    class="text-decoration-none text-capitalize">{{product.section}}</a></li>
+            <li class="breadcrumb-item"><a (click)="goToProductListing2()" href="javascript:void(0)"
+                    class="text-decoration-none text-capitalize">{{product.category}}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{product.name}}</li>
+        </ol>
+    </nav>
+    <div class="row mb-5">
+        <div class="col">
+            <div class="row">
+                <div class="col-2">
+                    <a (click)="enlargeImg(i)" *ngFor="let img of product.imgs; let i = index;"
+                        href="javascript:void(0)"><img [ngClass]="{'border border-dark': index === i}" [src]="img"
+                            alt="" class="mb-3 shadow-lg"></a>
+                </div>
+                <div class="col">
+                    <img [src]="product.imgs[index]" alt="" class="mb-3 shadow-lg">
+                    <nav class="nav justify-content-center">
+                        <!-- <a class="nav-link active" aria-current="page" href="#">Active</a> -->
+                        <a class="nav-link" href="javascript:void(0)"><img src="../../assets/imgs/social/facebook.svg"
+                                alt=""></a>
+                        <a class="nav-link" href="javascript:void(0)"><img src="../../assets/imgs/social/twitter.svg"
+                                alt=""></a>
+                        <a class="nav-link" href="javascript:void(0)"><img src="../../assets/imgs/social/pinterest.svg"
+                                alt=""></a>
+                        <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="fs-1 fw-light text-muted">{{product.brand}}</div>
+            <div class="fs-2 fw-bold mb-4">{{product.name}}</div>
+            <div class="fs-4 fw-bold mb-4">&#8377;{{product.price}}</div>
+            <div class="fs-5 fw-light text-muted mb-2">Size</div>
+            <div class="btn-group btn-group-lg mb-4" role="group" aria-label="Basic radio toggle button group">
+                <input (click)="clickedS()" type="radio" class="btn-check" name="btnradio" id="btnradio1"
+                    autocomplete="off" [checked]="sizes.s" [disabled]="!qtyLeft.s">
+                <label class="btn btn-outline-secondary fw-bold rounded-0 border-2 px-4 me-4"
+                    for="btnradio1">SMALL</label>
+
+                <input (click)="clickedM()" type="radio" class="btn-check" name="btnradio" id="btnradio2"
+                    autocomplete="off" [checked]="sizes.m" [disabled]="!qtyLeft.m">
+                <label class="btn btn-outline-secondary fw-bold rounded-0 border-2 px-4 me-4"
+                    for="btnradio2">MEDIUM</label>
+
+                <input (click)="clickedL()" type="radio" class="btn-check" name="btnradio" id="btnradio3"
+                    autocomplete="off" [checked]="sizes.l" [disabled]="!qtyLeft.l">
+                <label class="btn btn-outline-secondary fw-bold rounded-0 border-2 px-4" for="btnradio3">LARGE</label>
+            </div>
+            <div *ngIf="outOfStock; else inStock" class="fs-5 fw-bold text-danger mb-4">Out Of Stock</div>
+            <ng-template #inStock>
+                <div class="fs-5 mb-4"><span class="fw-light text-muted me-1">Low Stock :</span><span
+                        class="fw-bold text-danger">Only {{qtyView}} Left</span>
+                </div>
+            </ng-template>
+            <button (click)="addToCart()" class="btn btn-lg btn-primary fw-bold px-5 rounded-0 mb-5 shadow-lg"
+                [disabled]="outOfStock">ADD TO CART</button>
+            <div class="row justify-content-between mb-5">
+                <div class="col-auto d-flex align-items-center">
+                    <i class="fas fa-plane fa-2x text-success me-2"></i>
+                    <div>
+                        <div class="fw-bold">ORDERS SHIP</div>
+                        <div class="small fw-light">In 5 Business Days</div>
+                    </div>
+                </div>
+                <div class="col-auto d-flex align-items-center">
+                    <i class="fas fa-truck fa-2x text-success me-2"></i>
+                    <div>
+                        <div class="fw-bold">FREE</div>
+                        <div class="small fw-light">Shipping</div>
+                    </div>
+                </div>
+                <div class="col-auto d-flex align-items-center">
+                    <i class="fas fa-thumbs-up fa-2x text-success me-2"></i>
+                    <div>
+                        <div class="fw-bold">30 Day</div>
+                        <div class="small fw-light">Return & Refund</div>
+                    </div>
+                </div>
+                <div class="col-auto d-flex align-items-center">
+                    <i class="fas fa-check-circle fa-2x text-success me-2"></i>
+                    <div>
+                        <div class="fw-bold">Secure</div>
+                        <div class="small fw-light">Payments</div>
+                    </div>
+                </div>
+            </div>
+            <div class="fs-5 fw-bold">PRODUCT DETAILS</div>
+            <hr class="my-2">
+            <ul class="list-group lh-1 fw-light">
+                <li class="list-group-item ps-0 border-0">Color - <span class="text-muted">{{product.color}}</span></li>
+                <!-- <li class="list-group-item ps-0 border-0">Weight - Text here</li>
+                            <li class="list-group-item ps-0 border-0">Material - Text goes here</li>
+                            <li class="list-group-item ps-0 border-0">Weight - Text here</li>
+                            <li class="list-group-item ps-0 border-0">Material - Text goes here</li> -->
+            </ul>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

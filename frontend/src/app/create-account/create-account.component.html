@@ -1,0 +1,79 @@
+<app-header></app-header>
+
+<div class="col-4 px-5 py-4 border mx-auto my-5">
+    <div class="mx-2">
+        <div class="fs-4 fw-bold text-center mb-4">Sign up with Shopper's Stop</div>
+        <form action="" class="fs-5 fw-light text-muted" #createAccountForm="ngForm" (ngSubmit)="createAccount()"
+            novalidate>
+            <div class="form-floating mb-2">
+                <input type="text" class="form-control fs-5 fw-light" id="" placeholder="First name"
+                    [(ngModel)]="createAccountModel.firstName" name="firstName" required pattern="^\S*$"
+                    #firstName="ngModel" [class.is-invalid]="firstName.invalid && firstName.touched">
+                <label for="">First name</label>
+                <div *ngIf="firstName.errors">
+                    <small class="text-danger" *ngIf="(firstName.errors.required && firstName.touched)">First Name
+                        is required.</small>
+                    <small class="text-danger" *ngIf="firstName.errors.pattern">Must be spaceless</small>
+                </div>
+                <div class="text-center">
+                    <small class="text-success" *ngIf="!(firstName.errors)">Looks good!</small>
+                </div>
+            </div>
+            <div class="form-floating mb-2">
+                <input type="email" class="form-control fs-5 fw-light" id="" placeholder="Email ID"
+                    [(ngModel)]="createAccountModel.emailID" name="emailID" required
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" #emailID="ngModel"
+                    [class.is-invalid]="emailID.invalid && emailID.touched">
+                <label for="">Email ID</label>
+                <div *ngIf="emailID.errors">
+                    <small class="text-danger" *ngIf="(emailID.errors.required && emailID.touched)">Email ID is
+                        required.</small>
+                    <small class="text-danger" *ngIf="emailID.errors.pattern">Must be a valid Email ID.</small>
+                </div>
+                <div class="text-center">
+                    <small class="text-success" *ngIf="!(emailID.errors)">Looks good!</small>
+                </div>
+            </div>
+            <div class="form-floating mb-2">
+                <input type="password" class="form-control fs-5 fw-light" id="" placeholder="Set password"
+                    [(ngModel)]="createAccountModel.password" name="password" required
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" #password="ngModel"
+                    [class.is-invalid]="password.invalid && password.touched">
+                <label for="">Set password</label>
+                <div *ngIf="password.errors">
+                    <small class="text-danger" *ngIf="(password.errors.required && password.touched)">Password
+                        is required.</small>
+                    <small class="text-danger" *ngIf="password.errors.pattern">Must be at least 8 characters with a
+                        number, uppercase and lowercase letter.</small>
+                </div>
+                <div class="text-center">
+                    <small class="text-success" *ngIf="!(password.errors)">Looks good!</small>
+                </div>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="tel" class="form-control fs-5 fw-light" id="" placeholder="Mobile number"
+                    [(ngModel)]="createAccountModel.mobileNumber" name="mobileNumber" required pattern="^\d{10}$"
+                    #mobileNumber="ngModel" [class.is-invalid]="mobileNumber.invalid && mobileNumber.touched">
+                <label for="">Mobile number</label>
+                <div *ngIf="mobileNumber.errors">
+                    <small class="text-danger" *ngIf="(mobileNumber.errors.required && mobileNumber.touched)">Mobile
+                        number is required.</small>
+                    <small class="text-danger" *ngIf="mobileNumber.errors.pattern">Must be 10 digits.</small>
+                </div>
+                <div class="text-center">
+                    <small class="text-success" *ngIf="!(mobileNumber.errors)">Looks good!</small>
+                </div>
+            </div>
+            <div class="d-grid">
+                <button class="btn btn-lg btn-primary fw-bold rounded-0 mb-4 shadow"
+                    [disabled]="createAccountForm.form.invalid">CREATE AN ACCOUNT</button>
+            </div>
+        </form>
+        <div class="text-center">
+            <span class="fw-light text-muted me-1">Already have an account?</span><a href="login"
+                class="text-decoration-none">Login</a>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

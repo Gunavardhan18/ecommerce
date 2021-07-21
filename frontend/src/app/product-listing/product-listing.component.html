@@ -1,0 +1,83 @@
+<app-header></app-header>
+
+<div class="mx-5">
+    <div class="fs-1 fw-bold text-capitalize mt-5 mb-4">{{section}} {{category}}</div>
+    <div class="row gx-0 mb-5">
+        <div class="col-2">
+            <label for="category" class="fw-light mb-1">Category</label>
+            <select (change)="changeCategory($event)" class="form-select form-select-lg text-capitalize mb-3 rounded-0"
+                aria-label=".form-select-lg example" id="category">
+                <option *ngFor="let category of categories" value="{{category}}">{{category}}</option>
+            </select>
+        </div>
+        <!-- <div class="col-2">
+        <label for="color" class="fw-light mb-1">Color</label>
+        <select class="form-select form-select-lg mb-3 rounded-0" aria-label=".form-select-lg example" id="color">
+            <option selected>All</option>
+        </select>
+    </div>
+    <div class="col-2">
+        <label for="price" class="fw-light mb-1">Price</label>
+        <select class="form-select form-select-lg mb-3 rounded-0" aria-label=".form-select-lg example" id="price">
+            <option selected>All</option>
+        </select>
+    </div>
+    <div class="col-2">
+        <label for="sortBy" class="fw-light mb-1">Sort By</label>
+        <select class="form-select form-select-lg mb-3 rounded-0" aria-label=".form-select-lg example" id="sortBy">
+            <option selected>Popularity</option>
+        </select>
+    </div> -->
+    </div>
+</div>
+<div class="text-center">
+    <div class="row row-cols-4 gy-5 px-5 mb-5">
+        <div *ngFor="let product of productsView" class="col">
+            <a (click)="goToProductDetail(product._id.$oid)" href="javascript:void(0)"
+                class="text-decoration-none text-dark">
+                <div class="card rounded-0 border-0 shadow-lg">
+                    <img [src]="product.imgs[0]" alt="" class="card-img-top rounded-0">
+                    <div class="card-body">
+                        <h5 class="card-title fs-5 fw-light text-truncate">{{product.name}}</h5>
+                        <p class="card-text fs-5">
+                            <span *ngIf="product.oldPrice"
+                                class="fw-light text-muted text-decoration-line-through me-2">&#8377;{{product.oldPrice}}</span><span
+                                class="fw-bold">&#8377;{{product.price}}</span>
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <button (click)="toggleView()"
+        class="btn btn-lg btn-primary fw-bold text-uppercase px-5 rounded-0 mb-5 shadow-lg">VIEW
+        {{qty}}</button>
+</div>
+<!-- <div class="row px-5 pb-5 mt-4 mb-5">
+    <div class="col">
+        <div class="card bg-light text-dark">
+            <img src="../../assets/imgs/jackets.webp" class="card-img" alt="">
+            <div class="card-img-overlay d-flex align-items-end">
+                <h5 class="card-title fs-3 mx-auto">JACKETS</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card bg-light text-dark">
+            <img src="../../assets/imgs/dresses.jpeg" class="card-img" alt="">
+            <div class="card-img-overlay d-flex align-items-end">
+                <h5 class="card-title fs-3 mx-auto">DRESSES</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card bg-light text-dark">
+            <img src="../../assets/imgs/watches.jpeg" class="card-img" alt="">
+            <div class="card-img-overlay d-flex align-items-end">
+                <h5 class="card-title fs-3 mx-auto">WATCHES</h5>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<app-footer></app-footer>

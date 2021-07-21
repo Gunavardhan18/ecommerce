@@ -1,0 +1,61 @@
+<nav class="navbar navbar-expand-lg navbar-light sticky-top bg-white bg-gradient py-0 border-bottom">
+    <div class="container-fluid px-4">
+        <a class="navbar-brand fs-2" href="#">SHOPPER'S DESTINY</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
+            <div class="navbar-nav col-3 justify-content-evenly">
+                <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+                <a class="nav-link fw-bold text-dark" href="#">HOME</a>
+                <a (click)="goToProductListing(section)" *ngFor="let section of sections"
+                    class="nav-link fw-bold text-dark text-uppercase" href="javascript:void(0)">{{section}}</a>
+                <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+            </div>
+            <div class="navbar-nav col-2 justify-content-evenly">
+                <a class="nav-link text-dark py-4" href="javascript:void(0)"><i class="fas fa-search fa-lg"></i></a>
+                <div *ngIf="show; else notClicked">
+                    <a (click)="hideProfile()" class="nav-link text-primary p-4 border-bottom border-primary border-2"
+                        href="javascript:void(0)"><i class="fas fa-user fa-lg"></i></a>
+                </div>
+                <ng-template #notClicked>
+                    <a (click)="showProfile()" id="user"
+                        class="nav-link text-dark p-4 border-bottom border-white border-2" href="javascript:void(0)"><i
+                            class="fas fa-user fa-lg"></i></a>
+                </ng-template>
+                <a (click)="goToCartDetails()" id="cart" class="nav-link text-dark py-4" href="javascript:void(0)"><i
+                        class="fas fa-shopping-cart fa-lg"></i></a>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="show">
+        <div *ngIf="firstName; else notLoggedIn">
+            <div (mouseleave)="hideProfile()" class="col-3 position-absolute top-100 end-0 bg-white shadow">
+                <div class="d-flex justify-content-between align-items-center m-3">
+                    <div>
+                        <div class="fs-5 text-primary">{{firstName}}</div>
+                        <div class="fw-light">{{emailID}}</div>
+                    </div>
+                    <i class="fas fa-chevron-right text-primary"></i>
+                </div>
+                <nav class="nav flex-column fs-5 fw-light border-top border-bottom">
+                    <!-- <a class="nav-link active" aria-current="page" href="#">Active</a> -->
+                    <a class="nav-link link-dark mx-3 my-1" href="profileDetails">Profile Details</a>
+                    <a class="nav-link link-dark mx-3 my-1" href="orderHistory">Order History</a>
+                    <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+                </nav>
+                <div class="my-4"><a (click)="logout()" href="javascript:void(0)"
+                        class="text-decoration-none link-danger mx-4">LOGOUT</a></div>
+            </div>
+        </div>
+        <ng-template #notLoggedIn>
+            <div (mouseleave)="hideProfile()" class="col-3 position-absolute top-100 end-0 bg-white shadow">
+                <nav class="nav flex-column fs-5 fw-light border-top border-bottom">
+                    <a class="nav-link link-dark mx-3 my-1" href="login">Login</a>
+                    <a class="nav-link link-dark mx-3 my-1" href="createAccount">Sign up</a>
+                </nav>
+            </div>
+        </ng-template>
+    </div>
+</nav>

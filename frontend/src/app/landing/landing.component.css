@@ -1,0 +1,36 @@
+img {
+    width: 100%;
+    /* height: 550px; */
+}
+
+/* .card-img-top {
+    height: 400px;
+}
+
+.card-img {
+    height: 650px;
+}
+
+.col .card-img {
+    height: 450px;
+    object-fit: cover;
+} */
+
+.carousel-item .card-img-top {
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}

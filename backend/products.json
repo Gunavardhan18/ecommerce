@@ -1,0 +1,1562 @@
+[
+    {
+        "section": "men",
+        "category": "jackets",
+        "brand": "Campus Sutra",
+        "name": "Colourblocked Windcheater Padded Jacket",
+        "color": "Grey & Black",
+        "imgs": [
+            "../../assets/imgs/products/men/jackets/Campus Sutra Men Grey & Black Colourblocked Windcheater Padded Jacket/1.webp",
+            "../../assets/imgs/products/men/jackets/Campus Sutra Men Grey & Black Colourblocked Windcheater Padded Jacket/2.jpeg",
+            "../../assets/imgs/products/men/jackets/Campus Sutra Men Grey & Black Colourblocked Windcheater Padded Jacket/3.webp",
+            "../../assets/imgs/products/men/jackets/Campus Sutra Men Grey & Black Colourblocked Windcheater Padded Jacket/4.jpeg"
+        ],
+        "oldPrice": 2999,
+        "price": 1349,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "men",
+        "category": "jackets",
+        "brand": "Chkokko",
+        "name": "Colourblocked Hooded Windcheater Running Jacket",
+        "color": "Blue & Beige",
+        "imgs": [
+            "../../assets/imgs/products/men/jackets/Chkokko Men Blue & Beige Colourblocked Hooded Windcheater Running Jacket/1.webp",
+            "../../assets/imgs/products/men/jackets/Chkokko Men Blue & Beige Colourblocked Hooded Windcheater Running Jacket/2.jpeg",
+            "../../assets/imgs/products/men/jackets/Chkokko Men Blue & Beige Colourblocked Hooded Windcheater Running Jacket/3.webp",
+            "../../assets/imgs/products/men/jackets/Chkokko Men Blue & Beige Colourblocked Hooded Windcheater Running Jacket/4.webp"
+        ],
+        "price": 1055,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "men",
+        "category": "jackets",
+        "brand": "Ecko Unltd",
+        "name": "Hooded Denim Jacket",
+        "color": "Grey",
+        "imgs": [
+            "../../assets/imgs/products/men/jackets/Ecko Unltd Men Grey Hooded Denim Jacket/1.webp",
+            "../../assets/imgs/products/men/jackets/Ecko Unltd Men Grey Hooded Denim Jacket/2.jpeg",
+            "../../assets/imgs/products/men/jackets/Ecko Unltd Men Grey Hooded Denim Jacket/3.webp",
+            "../../assets/imgs/products/men/jackets/Ecko Unltd Men Grey Hooded Denim Jacket/4.webp"
+        ],
+        "oldPrice": 1449,
+        "price": 1014,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "men",
+        "category": "jackets",
+        "brand": "FILA",
+        "name": "Solid Padded Jacket",
+        "color": "Navy Blue",
+        "imgs": [
+            "../../assets/imgs/products/men/jackets/FILA Men Navy Blue Solid Padded Jacket/1.webp",
+            "../../assets/imgs/products/men/jackets/FILA Men Navy Blue Solid Padded Jacket/2.webp",
+            "../../assets/imgs/products/men/jackets/FILA Men Navy Blue Solid Padded Jacket/3.webp",
+            "../../assets/imgs/products/men/jackets/FILA Men Navy Blue Solid Padded Jacket/4.webp"
+        ],
+        "price": 3314,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "men",
+        "category": "jackets",
+        "brand": "HERE&NOW",
+        "name": "Solid Denim Jacket",
+        "color": "Maroon",
+        "imgs": [
+            "../../assets/imgs/products/men/jackets/HERE&NOW Men Maroon Solid Denim Jacket/1.webp",
+            "../../assets/imgs/products/men/jackets/HERE&NOW Men Maroon Solid Denim Jacket/2.jpeg",
+            "../../assets/imgs/products/men/jackets/HERE&NOW Men Maroon Solid Denim Jacket/3.webp",
+            "../../assets/imgs/products/men/jackets/HERE&NOW Men Maroon Solid Denim Jacket/4.jpeg"
+        ],
+        "oldPrice": 4599,
+        "price": 1149,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "men",
+        "category": "jackets",
+        "brand": "H&M",
+        "name": "Solid Relaxed Fit Shirt Jacket",
+        "color": "Green",
+        "imgs": [
+            "../../assets/imgs/products/men/jackets/H&M Men Green Solid Relaxed Fit Shirt Jacket/1.webp",
+            "../../assets/imgs/products/men/jackets/H&M Men Green Solid Relaxed Fit Shirt Jacket/2.webp",
+            "../../assets/imgs/products/men/jackets/H&M Men Green Solid Relaxed Fit Shirt Jacket/3.webp",
+            "../../assets/imgs/products/men/jackets/H&M Men Green Solid Relaxed Fit Shirt Jacket/4.jpeg"
+        ],
+        "price": 1999,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "men",
+        "category": "jackets",
+        "brand": "HIGHLANDER",
+        "name": "Colourblocked Lightweight Sporty Jacket",
+        "color": "Navy Blue",
+        "imgs": [
+            "../../assets/imgs/products/men/jackets/HIGHLANDER Men Navy Blue Colourblocked Lightweight Sporty Jacket/1.webp",
+            "../../assets/imgs/products/men/jackets/HIGHLANDER Men Navy Blue Colourblocked Lightweight Sporty Jacket/2.webp",
+            "../../assets/imgs/products/men/jackets/HIGHLANDER Men Navy Blue Colourblocked Lightweight Sporty Jacket/3.webp",
+            "../../assets/imgs/products/men/jackets/HIGHLANDER Men Navy Blue Colourblocked Lightweight Sporty Jacket/4.webp"
+        ],
+        "oldPrice": 2249,
+        "price": 854,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "men",
+        "category": "jackets",
+        "brand": "HRX by Hrithik Roshan",
+        "name": "Colourblock Rapid-Dry Antimicrobial Running Jacket",
+        "color": "Blue & White",
+        "imgs": [
+            "../../assets/imgs/products/men/jackets/HRX by Hrithik Roshan Men Blue & White Colourblock Rapid-Dry Antimicrobial Running Jacket/1.webp",
+            "../../assets/imgs/products/men/jackets/HRX by Hrithik Roshan Men Blue & White Colourblock Rapid-Dry Antimicrobial Running Jacket/2.jpeg",
+            "../../assets/imgs/products/men/jackets/HRX by Hrithik Roshan Men Blue & White Colourblock Rapid-Dry Antimicrobial Running Jacket/3.webp",
+            "../../assets/imgs/products/men/jackets/HRX by Hrithik Roshan Men Blue & White Colourblock Rapid-Dry Antimicrobial Running Jacket/4.webp"
+        ],
+        "price": 1319,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "men",
+        "category": "jackets",
+        "brand": "Jack & Jones",
+        "name": "Solid Padded Jacket",
+        "color": "Yellow",
+        "imgs": [
+            "../../assets/imgs/products/men/jackets/Jack & Jones Men Yellow Solid Padded Jacket/1.webp",
+            "../../assets/imgs/products/men/jackets/Jack & Jones Men Yellow Solid Padded Jacket/2.jpeg",
+            "../../assets/imgs/products/men/jackets/Jack & Jones Men Yellow Solid Padded Jacket/3.jpeg",
+            "../../assets/imgs/products/men/jackets/Jack & Jones Men Yellow Solid Padded Jacket/4.jpeg"
+        ],
+        "oldPrice": 3499,
+        "price": 1749,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "men",
+        "category": "jackets",
+        "brand": "Leather Retail",
+        "name": "Solid Leather Jacket",
+        "color": "Brown",
+        "imgs": [
+            "../../assets/imgs/products/men/jackets/Leather Retail Men Brown Solid Leather Jacket/1.jpeg",
+            "../../assets/imgs/products/men/jackets/Leather Retail Men Brown Solid Leather Jacket/2.jpeg",
+            "../../assets/imgs/products/men/jackets/Leather Retail Men Brown Solid Leather Jacket/3.jpeg",
+            "../../assets/imgs/products/men/jackets/Leather Retail Men Brown Solid Leather Jacket/4.jpeg"
+        ],
+        "price": 1899,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "men",
+        "category": "jackets",
+        "brand": "Levis",
+        "name": "Camouflage Printed Lightweight Packable Puffer Jacket",
+        "color": "Olive Green & Blue",
+        "imgs": [
+            "../../assets/imgs/products/men/jackets/Levis Men Olive Green & Blue Camouflage Printed Lightweight Packable Puffer Jacket/1.jpeg",
+            "../../assets/imgs/products/men/jackets/Levis Men Olive Green & Blue Camouflage Printed Lightweight Packable Puffer Jacket/2.webp",
+            "../../assets/imgs/products/men/jackets/Levis Men Olive Green & Blue Camouflage Printed Lightweight Packable Puffer Jacket/3.jpeg",
+            "../../assets/imgs/products/men/jackets/Levis Men Olive Green & Blue Camouflage Printed Lightweight Packable Puffer Jacket/4.webp"
+        ],
+        "oldPrice": 3999,
+        "price": 2399,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "men",
+        "category": "jackets",
+        "brand": "LOCOMOTIVE",
+        "name": "Colourblocked Hooded Tailored Cotton Jacket",
+        "color": "Green & Navy Blue",
+        "imgs": [
+            "../../assets/imgs/products/men/jackets/LOCOMOTIVE Men Green & Navy Blue Colourblocked Hooded Tailored Cotton Jacket/1.webp",
+            "../../assets/imgs/products/men/jackets/LOCOMOTIVE Men Green & Navy Blue Colourblocked Hooded Tailored Cotton Jacket/2.jpeg",
+            "../../assets/imgs/products/men/jackets/LOCOMOTIVE Men Green & Navy Blue Colourblocked Hooded Tailored Cotton Jacket/3.webp",
+            "../../assets/imgs/products/men/jackets/LOCOMOTIVE Men Green & Navy Blue Colourblocked Hooded Tailored Cotton Jacket/4.webp"
+        ],
+        "price": 987,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "men",
+        "category": "jackets",
+        "brand": "MONOCHROME",
+        "name": "Solid Insulator Leather Jacket",
+        "color": "White",
+        "imgs": [
+            "../../assets/imgs/products/men/jackets/MONOCHROME Men White Solid Insulator Leather Jacket/1.webp",
+            "../../assets/imgs/products/men/jackets/MONOCHROME Men White Solid Insulator Leather Jacket/2.webp",
+            "../../assets/imgs/products/men/jackets/MONOCHROME Men White Solid Insulator Leather Jacket/3.webp",
+            "../../assets/imgs/products/men/jackets/MONOCHROME Men White Solid Insulator Leather Jacket/4.jpeg"
+        ],
+        "oldPrice": 16999,
+        "price": 7139,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "men",
+        "category": "jackets",
+        "brand": "Nautica",
+        "name": "Colourblocked Water Resistant Puffer Jacket",
+        "color": "Navy Blue & White",
+        "imgs": [
+            "../../assets/imgs/products/men/jackets/Nautica Men Navy Blue & White Colourblocked Water Resistant Puffer Jacket/1.jpeg",
+            "../../assets/imgs/products/men/jackets/Nautica Men Navy Blue & White Colourblocked Water Resistant Puffer Jacket/2.jpeg",
+            "../../assets/imgs/products/men/jackets/Nautica Men Navy Blue & White Colourblocked Water Resistant Puffer Jacket/3.webp",
+            "../../assets/imgs/products/men/jackets/Nautica Men Navy Blue & White Colourblocked Water Resistant Puffer Jacket/4.webp"
+        ],
+        "price": 4049,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "men",
+        "category": "jackets",
+        "brand": "Okane",
+        "name": "Solid Puffer Jacket",
+        "color": "Blue",
+        "imgs": [
+            "../../assets/imgs/products/men/jackets/Okane Men Blue Solid Puffer Jacket/1.jpeg",
+            "../../assets/imgs/products/men/jackets/Okane Men Blue Solid Puffer Jacket/2.jpeg",
+            "../../assets/imgs/products/men/jackets/Okane Men Blue Solid Puffer Jacket/3.jpeg",
+            "../../assets/imgs/products/men/jackets/Okane Men Blue Solid Puffer Jacket/4.jpeg"
+        ],
+        "oldPrice": 4999,
+        "price": 3499,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "men",
+        "category": "jackets",
+        "brand": "Puma",
+        "name": "Printed Knitted 5 Bomber Jacket",
+        "color": "Olive Green",
+        "imgs": [
+            "../../assets/imgs/products/men/jackets/Puma Men Olive Green Printed Knitted 5 Bomber Jacket/1.jpeg",
+            "../../assets/imgs/products/men/jackets/Puma Men Olive Green Printed Knitted 5 Bomber Jacket/2.jpeg",
+            "../../assets/imgs/products/men/jackets/Puma Men Olive Green Printed Knitted 5 Bomber Jacket/3.jpeg",
+            "../../assets/imgs/products/men/jackets/Puma Men Olive Green Printed Knitted 5 Bomber Jacket/4.jpeg"
+        ],
+        "price": 1319,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "men",
+        "category": "jackets",
+        "brand": "Teakwood Leathers",
+        "name": "Lightweight Leather Jacket",
+        "color": "Black Leather",
+        "imgs": [
+            "../../assets/imgs/products/men/jackets/Teakwood Leathers Men Black Leather Lightweight Leather Jacket/1.webp",
+            "../../assets/imgs/products/men/jackets/Teakwood Leathers Men Black Leather Lightweight Leather Jacket/2.jpeg",
+            "../../assets/imgs/products/men/jackets/Teakwood Leathers Men Black Leather Lightweight Leather Jacket/3.webp",
+            "../../assets/imgs/products/men/jackets/Teakwood Leathers Men Black Leather Lightweight Leather Jacket/4.webp"
+        ],
+        "oldPrice": 19999,
+        "price": 7999,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "men",
+        "category": "jackets",
+        "brand": "U.S. Polo Assn.",
+        "name": "Solid Bomber Jacket",
+        "color": "Red & White",
+        "imgs": [
+            "../../assets/imgs/products/men/jackets/U.S. Polo Assn. Men Red & White Solid Bomber Jacket/1.jpeg",
+            "../../assets/imgs/products/men/jackets/U.S. Polo Assn. Men Red & White Solid Bomber Jacket/2.jpeg",
+            "../../assets/imgs/products/men/jackets/U.S. Polo Assn. Men Red & White Solid Bomber Jacket/3.jpeg",
+            "../../assets/imgs/products/men/jackets/U.S. Polo Assn. Men Red & White Solid Bomber Jacket/4.jpeg"
+        ],
+        "price": 2499,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "men",
+        "category": "jackets",
+        "brand": "Wildcraft",
+        "name": "Solid Padded Jacket",
+        "color": "Olive Green",
+        "imgs": [
+            "../../assets/imgs/products/men/jackets/Wildcraft Men Olive Green Solid Padded Jacket/1.webp",
+            "../../assets/imgs/products/men/jackets/Wildcraft Men Olive Green Solid Padded Jacket/2.jpeg",
+            "../../assets/imgs/products/men/jackets/Wildcraft Men Olive Green Solid Padded Jacket/3.webp",
+            "../../assets/imgs/products/men/jackets/Wildcraft Men Olive Green Solid Padded Jacket/4.webp"
+        ],
+        "oldPrice": 4999,
+        "price": 2249,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "men",
+        "category": "jackets",
+        "brand": "WROGN",
+        "name": "Solid Sporty Jacket",
+        "color": "Brown",
+        "imgs": [
+            "../../assets/imgs/products/men/jackets/WROGN Men Brown Solid Sporty Jacket/1.webp",
+            "../../assets/imgs/products/men/jackets/WROGN Men Brown Solid Sporty Jacket/2.jpeg",
+            "../../assets/imgs/products/men/jackets/WROGN Men Brown Solid Sporty Jacket/3.webp",
+            "../../assets/imgs/products/men/jackets/WROGN Men Brown Solid Sporty Jacket/4.webp"
+        ],
+        "price": 2024,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "men",
+        "category": "t-shirts",
+        "brand": "Campus Sutra",
+        "name": "Colourblocked Round Neck T-shirt",
+        "color": "Blue",
+        "imgs": [
+            "../../assets/imgs/products/men/t-shirts/Campus Sutra Men Blue Colourblocked Round Neck T-shirt/1.webp",
+            "../../assets/imgs/products/men/t-shirts/Campus Sutra Men Blue Colourblocked Round Neck T-shirt/2.jpeg",
+            "../../assets/imgs/products/men/t-shirts/Campus Sutra Men Blue Colourblocked Round Neck T-shirt/3.webp",
+            "../../assets/imgs/products/men/t-shirts/Campus Sutra Men Blue Colourblocked Round Neck T-shirt/4.webp"
+        ],
+        "price": 379,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "men",
+        "category": "t-shirts",
+        "brand": "French Connection",
+        "name": "Printed Polo Collar T-shirt",
+        "color": "Green",
+        "imgs": [
+            "../../assets/imgs/products/men/t-shirts/French Connection Men Green Printed Polo Collar T-shirt/1.jpeg",
+            "../../assets/imgs/products/men/t-shirts/French Connection Men Green Printed Polo Collar T-shirt/2.jpeg",
+            "../../assets/imgs/products/men/t-shirts/French Connection Men Green Printed Polo Collar T-shirt/3.jpeg",
+            "../../assets/imgs/products/men/t-shirts/French Connection Men Green Printed Polo Collar T-shirt/4.jpeg"
+        ],
+        "oldPrice": 1299,
+        "price": 779,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "men",
+        "category": "t-shirts",
+        "brand": "H&M",
+        "name": "Solid Cotton T-shirt",
+        "color": "Brown",
+        "imgs": [
+            "../../assets/imgs/products/men/t-shirts/H&M Men Brown Solid Cotton T-shirt/1.webp",
+            "../../assets/imgs/products/men/t-shirts/H&M Men Brown Solid Cotton T-shirt/2.webp",
+            "../../assets/imgs/products/men/t-shirts/H&M Men Brown Solid Cotton T-shirt/3.webp",
+            "../../assets/imgs/products/men/t-shirts/H&M Men Brown Solid Cotton T-shirt/4.jpeg"
+        ],
+        "price": 799,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "men",
+        "category": "t-shirts",
+        "brand": "HERE&NOW",
+        "name": "Printed Round Neck T-shirt",
+        "color": "Maroon",
+        "imgs": [
+            "../../assets/imgs/products/men/t-shirts/HERE&NOW Men Maroon Printed Round Neck T-shirt/1.webp",
+            "../../assets/imgs/products/men/t-shirts/HERE&NOW Men Maroon Printed Round Neck T-shirt/2.jpeg",
+            "../../assets/imgs/products/men/t-shirts/HERE&NOW Men Maroon Printed Round Neck T-shirt/3.webp",
+            "../../assets/imgs/products/men/t-shirts/HERE&NOW Men Maroon Printed Round Neck T-shirt/4.webp"
+        ],
+        "oldPrice": 599,
+        "price": 329,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "men",
+        "category": "t-shirts",
+        "brand": "HIGHLANDER",
+        "name": "Colourblocked Round Neck T-shirt",
+        "color": "Charcoal Grey & Black",
+        "imgs": [
+            "../../assets/imgs/products/men/t-shirts/HIGHLANDER Men Charcoal Grey & Black Colourblocked Round Neck T-shirt/1.webp",
+            "../../assets/imgs/products/men/t-shirts/HIGHLANDER Men Charcoal Grey & Black Colourblocked Round Neck T-shirt/2.jpeg",
+            "../../assets/imgs/products/men/t-shirts/HIGHLANDER Men Charcoal Grey & Black Colourblocked Round Neck T-shirt/3.webp",
+            "../../assets/imgs/products/men/t-shirts/HIGHLANDER Men Charcoal Grey & Black Colourblocked Round Neck T-shirt/4.jpeg"
+        ],
+        "price": 349,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "men",
+        "category": "t-shirts",
+        "brand": "Indian Terrain",
+        "name": "Solid Polo Collar T-shirt",
+        "color": "Burgundy",
+        "imgs": [
+            "../../assets/imgs/products/men/t-shirts/Indian Terrain Men Burgundy Solid Polo Collar T-shirt/1.jpeg",
+            "../../assets/imgs/products/men/t-shirts/Indian Terrain Men Burgundy Solid Polo Collar T-shirt/2.jpeg",
+            "../../assets/imgs/products/men/t-shirts/Indian Terrain Men Burgundy Solid Polo Collar T-shirt/3.webp",
+            "../../assets/imgs/products/men/t-shirts/Indian Terrain Men Burgundy Solid Polo Collar T-shirt/4.webp"
+        ],
+        "oldPrice": 1099,
+        "price": 879,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "men",
+        "category": "t-shirts",
+        "brand": "HRX by Hrithik Roshan",
+        "name": "Printed Round Neck Active T-Shirt",
+        "color": "Navy Blue",
+        "imgs": [
+            "../../assets/imgs/products/men/t-shirts/HRX by Hrithik Roshan Men Navy Blue Printed Round Neck Active T-Shirt/1.webp",
+            "../../assets/imgs/products/men/t-shirts/HRX by Hrithik Roshan Men Navy Blue Printed Round Neck Active T-Shirt/2.webp",
+            "../../assets/imgs/products/men/t-shirts/HRX by Hrithik Roshan Men Navy Blue Printed Round Neck Active T-Shirt/3.jpeg",
+            "../../assets/imgs/products/men/t-shirts/HRX by Hrithik Roshan Men Navy Blue Printed Round Neck Active T-Shirt/4.webp"
+        ],
+        "price": 1099,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "men",
+        "category": "t-shirts",
+        "brand": "Jack & Jones",
+        "name": "Printed Round Neck T-shirt",
+        "color": "Red",
+        "imgs": [
+            "../../assets/imgs/products/men/t-shirts/Jack & Jones Men Red Printed Round Neck T-shirt/1.webp",
+            "../../assets/imgs/products/men/t-shirts/Jack & Jones Men Red Printed Round Neck T-shirt/2.jpeg",
+            "../../assets/imgs/products/men/t-shirts/Jack & Jones Men Red Printed Round Neck T-shirt/3.jpeg",
+            "../../assets/imgs/products/men/t-shirts/Jack & Jones Men Red Printed Round Neck T-shirt/4.webp"
+        ],
+        "oldPrice": 1499,
+        "price": 1199,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "men",
+        "category": "t-shirts",
+        "brand": "Kook N Keech",
+        "name": "Solid Round Neck T-shirt",
+        "color": "Pink",
+        "imgs": [
+            "../../assets/imgs/products/men/t-shirts/Kook N Keech Men Pink Solid Round Neck T-shirt/1.webp",
+            "../../assets/imgs/products/men/t-shirts/Kook N Keech Men Pink Solid Round Neck T-shirt/2.jpeg",
+            "../../assets/imgs/products/men/t-shirts/Kook N Keech Men Pink Solid Round Neck T-shirt/3.jpeg",
+            "../../assets/imgs/products/men/t-shirts/Kook N Keech Men Pink Solid Round Neck T-shirt/4.webp"
+        ],
+        "price": 524,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "men",
+        "category": "t-shirts",
+        "brand": "Levis",
+        "name": "Striped Polo Collar T-shirt",
+        "color": "Grey",
+        "imgs": [
+            "../../assets/imgs/products/men/t-shirts/Levis Men Grey Striped Polo Collar T-shirt/1.jpeg",
+            "../../assets/imgs/products/men/t-shirts/Levis Men Grey Striped Polo Collar T-shirt/2.jpeg",
+            "../../assets/imgs/products/men/t-shirts/Levis Men Grey Striped Polo Collar T-shirt/3.webp",
+            "../../assets/imgs/products/men/t-shirts/Levis Men Grey Striped Polo Collar T-shirt/4.jpeg"
+        ],
+        "oldPrice": 2199,
+        "price": 1649,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "men",
+        "category": "t-shirts",
+        "brand": "LOCOMOTIVE",
+        "name": "Colourblocked Hood T-shirt",
+        "color": "Black & White",
+        "imgs": [
+            "../../assets/imgs/products/men/t-shirts/LOCOMOTIVE Men Black & White Colourblocked Hood T-shirt/1.webp",
+            "../../assets/imgs/products/men/t-shirts/LOCOMOTIVE Men Black & White Colourblocked Hood T-shirt/2.jpeg",
+            "../../assets/imgs/products/men/t-shirts/LOCOMOTIVE Men Black & White Colourblocked Hood T-shirt/3.webp",
+            "../../assets/imgs/products/men/t-shirts/LOCOMOTIVE Men Black & White Colourblocked Hood T-shirt/4.webp"
+        ],
+        "price": 459,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "men",
+        "category": "t-shirts",
+        "brand": "Mast & Harbour",
+        "name": "Striped Round Neck T-shirt",
+        "color": "White & Navy",
+        "imgs": [
+            "../../assets/imgs/products/men/t-shirts/Mast & Harbour Men White & Navy Striped Round Neck T-shirt/1.webp",
+            "../../assets/imgs/products/men/t-shirts/Mast & Harbour Men White & Navy Striped Round Neck T-shirt/2.webp",
+            "../../assets/imgs/products/men/t-shirts/Mast & Harbour Men White & Navy Striped Round Neck T-shirt/3.webp",
+            "../../assets/imgs/products/men/t-shirts/Mast & Harbour Men White & Navy Striped Round Neck T-shirt/4.webp"
+        ],
+        "oldPrice": 899,
+        "price": 629,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "men",
+        "category": "t-shirts",
+        "brand": "Moda Rapido",
+        "name": "Dyed Round Neck T-shirt",
+        "color": "Black & White",
+        "imgs": [
+            "../../assets/imgs/products/men/t-shirts/Moda Rapido Men Black & White Dyed Round Neck T-shirt/1.webp",
+            "../../assets/imgs/products/men/t-shirts/Moda Rapido Men Black & White Dyed Round Neck T-shirt/2.jpeg",
+            "../../assets/imgs/products/men/t-shirts/Moda Rapido Men Black & White Dyed Round Neck T-shirt/3.jpeg",
+            "../../assets/imgs/products/men/t-shirts/Moda Rapido Men Black & White Dyed Round Neck T-shirt/4.webp"
+        ],
+        "price": 359,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "men",
+        "category": "t-shirts",
+        "brand": "PORTBLAIR",
+        "name": "Striped Polo Collar T-shirt",
+        "color": "Maroon & White",
+        "imgs": [
+            "../../assets/imgs/products/men/t-shirts/PORTBLAIR Men Maroon & White Striped Polo Collar T-shirt/1.webp",
+            "../../assets/imgs/products/men/t-shirts/PORTBLAIR Men Maroon & White Striped Polo Collar T-shirt/2.webp",
+            "../../assets/imgs/products/men/t-shirts/PORTBLAIR Men Maroon & White Striped Polo Collar T-shirt/3.webp",
+            "../../assets/imgs/products/men/t-shirts/PORTBLAIR Men Maroon & White Striped Polo Collar T-shirt/4.webp"
+        ],
+        "oldPrice": 1599,
+        "price": 479,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "men",
+        "category": "t-shirts",
+        "brand": "Nike",
+        "name": "Printed Round Neck T-shirt",
+        "color": "Navy Blue",
+        "imgs": [
+            "../../assets/imgs/products/men/t-shirts/Nike Men Navy Blue Printed Round Neck T-shirt/1.jpeg",
+            "../../assets/imgs/products/men/t-shirts/Nike Men Navy Blue Printed Round Neck T-shirt/2.jpeg",
+            "../../assets/imgs/products/men/t-shirts/Nike Men Navy Blue Printed Round Neck T-shirt/3.jpeg",
+            "../../assets/imgs/products/men/t-shirts/Nike Men Navy Blue Printed Round Neck T-shirt/4.jpeg"
+        ],
+        "price": 1595,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "men",
+        "category": "t-shirts",
+        "brand": "Roadster",
+        "name": "Solid Round Neck T-shirt",
+        "color": "Blue",
+        "imgs": [
+            "../../assets/imgs/products/men/t-shirts/Roadster Men Blue Solid Round Neck T-shirt/1.webp",
+            "../../assets/imgs/products/men/t-shirts/Roadster Men Blue Solid Round Neck T-shirt/2.jpeg",
+            "../../assets/imgs/products/men/t-shirts/Roadster Men Blue Solid Round Neck T-shirt/3.jpeg",
+            "../../assets/imgs/products/men/t-shirts/Roadster Men Blue Solid Round Neck T-shirt/4.jpeg"
+        ],
+        "oldPrice": 899,
+        "price": 449,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "men",
+        "category": "t-shirts",
+        "brand": "Tommy Hilfiger",
+        "name": "Solid Pure Cotton Polo Collar T-shirt",
+        "color": "Navy Blue",
+        "imgs": [
+            "../../assets/imgs/products/men/t-shirts/Tommy Hilfiger Men Navy Blue Solid Pure Cotton Polo Collar T-shirt/1.webp",
+            "../../assets/imgs/products/men/t-shirts/Tommy Hilfiger Men Navy Blue Solid Pure Cotton Polo Collar T-shirt/2.webp",
+            "../../assets/imgs/products/men/t-shirts/Tommy Hilfiger Men Navy Blue Solid Pure Cotton Polo Collar T-shirt/3.webp",
+            "../../assets/imgs/products/men/t-shirts/Tommy Hilfiger Men Navy Blue Solid Pure Cotton Polo Collar T-shirt/4.webp"
+        ],
+        "price": 2799,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "men",
+        "category": "t-shirts",
+        "brand": "U.S. Polo Assn.",
+        "name": "Solid Polo Collar T-shirt",
+        "color": "Yellow",
+        "imgs": [
+            "../../assets/imgs/products/men/t-shirts/U.S. Polo Assn. Men Yellow Solid Polo Collar T-shirt/1.jpeg",
+            "../../assets/imgs/products/men/t-shirts/U.S. Polo Assn. Men Yellow Solid Polo Collar T-shirt/2.jpeg",
+            "../../assets/imgs/products/men/t-shirts/U.S. Polo Assn. Men Yellow Solid Polo Collar T-shirt/3.jpeg",
+            "../../assets/imgs/products/men/t-shirts/U.S. Polo Assn. Men Yellow Solid Polo Collar T-shirt/4.jpeg"
+        ],
+        "oldPrice": 1499,
+        "price": 899,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "men",
+        "category": "t-shirts",
+        "brand": "United Colors of Benetton",
+        "name": "Polo Collar T-shirt",
+        "color": "Green",
+        "imgs": [
+            "../../assets/imgs/products/men/t-shirts/United Colors of Benetton Men Green Polo Collar T-shirt/1.webp",
+            "../../assets/imgs/products/men/t-shirts/United Colors of Benetton Men Green Polo Collar T-shirt/2.jpeg",
+            "../../assets/imgs/products/men/t-shirts/United Colors of Benetton Men Green Polo Collar T-shirt/3.webp",
+            "../../assets/imgs/products/men/t-shirts/United Colors of Benetton Men Green Polo Collar T-shirt/4.jpeg"
+        ],
+        "price": 1499,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "men",
+        "category": "t-shirts",
+        "brand": "WROGN",
+        "name": "Printed Polo T-shirt",
+        "color": "Navy",
+        "imgs": [
+            "../../assets/imgs/products/men/t-shirts/WROGN Navy Printed Polo T-shirt/1.webp",
+            "../../assets/imgs/products/men/t-shirts/WROGN Navy Printed Polo T-shirt/2.webp",
+            "../../assets/imgs/products/men/t-shirts/WROGN Navy Printed Polo T-shirt/3.webp",
+            "../../assets/imgs/products/men/t-shirts/WROGN Navy Printed Polo T-shirt/4.webp"
+        ],
+        "oldPrice": 1199,
+        "price": 779,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "women",
+        "category": "jumpsuits",
+        "brand": "Athena",
+        "name": "Striped Basic Jumpsuit",
+        "color": "Multicoloured",
+        "imgs": [
+            "../../assets/imgs/products/women/jumpsuits/Athena Women Multicoloured Striped Basic Jumpsuit/1.webp",
+            "../../assets/imgs/products/women/jumpsuits/Athena Women Multicoloured Striped Basic Jumpsuit/2.jpeg",
+            "../../assets/imgs/products/women/jumpsuits/Athena Women Multicoloured Striped Basic Jumpsuit/3.webp",
+            "../../assets/imgs/products/women/jumpsuits/Athena Women Multicoloured Striped Basic Jumpsuit/4.webp"
+        ],
+        "oldPrice": 2999,
+        "price": 1349,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "women",
+        "category": "jumpsuits",
+        "brand": "Cottinfab",
+        "name": "Printed Basic Jumpsuit",
+        "color": "Black & White",
+        "imgs": [
+            "../../assets/imgs/products/women/jumpsuits/Cottinfab Women Black & White Printed Basic Jumpsuit/1.webp",
+            "../../assets/imgs/products/women/jumpsuits/Cottinfab Women Black & White Printed Basic Jumpsuit/2.webp",
+            "../../assets/imgs/products/women/jumpsuits/Cottinfab Women Black & White Printed Basic Jumpsuit/3.webp",
+            "../../assets/imgs/products/women/jumpsuits/Cottinfab Women Black & White Printed Basic Jumpsuit/4.webp"
+        ],
+        "price": 859,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "women",
+        "category": "jumpsuits",
+        "brand": "emeros",
+        "name": "Solid Wrap Jumpsuit",
+        "color": "Fuchsia",
+        "imgs": [
+            "../../assets/imgs/products/women/jumpsuits/emeros Women Fuchsia Solid Wrap Jumpsuit/1.webp",
+            "../../assets/imgs/products/women/jumpsuits/emeros Women Fuchsia Solid Wrap Jumpsuit/2.webp",
+            "../../assets/imgs/products/women/jumpsuits/emeros Women Fuchsia Solid Wrap Jumpsuit/3.webp",
+            "../../assets/imgs/products/women/jumpsuits/emeros Women Fuchsia Solid Wrap Jumpsuit/4.webp"
+        ],
+        "oldPrice": 1999,
+        "price": 799,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "women",
+        "category": "jumpsuits",
+        "brand": "H&M",
+        "name": "Solid Lyocell-Blend Jumpsuit",
+        "color": "Beige",
+        "imgs": [
+            "../../assets/imgs/products/women/jumpsuits/H&M Women Beige Solid Lyocell-Blend Jumpsuit/1.webp",
+            "../../assets/imgs/products/women/jumpsuits/H&M Women Beige Solid Lyocell-Blend Jumpsuit/2.jpeg",
+            "../../assets/imgs/products/women/jumpsuits/H&M Women Beige Solid Lyocell-Blend Jumpsuit/3.jpeg",
+            "../../assets/imgs/products/women/jumpsuits/H&M Women Beige Solid Lyocell-Blend Jumpsuit/4.jpeg"
+        ],
+        "price": 2299,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "women",
+        "category": "jumpsuits",
+        "brand": "Juniper",
+        "name": "Embroidered Basic Jumpsuit",
+        "color": "Navy Blue & Mustard Yellow",
+        "imgs": [
+            "../../assets/imgs/products/women/jumpsuits/Juniper Women Navy Blue & Mustard Yellow Pineapple Embroidered Basic Jumpsuit/1.webp",
+            "../../assets/imgs/products/women/jumpsuits/Juniper Women Navy Blue & Mustard Yellow Pineapple Embroidered Basic Jumpsuit/2.jpeg",
+            "../../assets/imgs/products/women/jumpsuits/Juniper Women Navy Blue & Mustard Yellow Pineapple Embroidered Basic Jumpsuit/3.webp",
+            "../../assets/imgs/products/women/jumpsuits/Juniper Women Navy Blue & Mustard Yellow Pineapple Embroidered Basic Jumpsuit/4.webp"
+        ],
+        "oldPrice": 2549,
+        "price": 943,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "women",
+        "category": "jumpsuits",
+        "brand": "MANGO",
+        "name": "Printed Basic Jumpsuit",
+        "color": "Black & White",
+        "imgs": [
+            "../../assets/imgs/products/women/jumpsuits/MANGO Black & White Printed Basic Jumpsuit/1.webp",
+            "../../assets/imgs/products/women/jumpsuits/MANGO Black & White Printed Basic Jumpsuit/2.webp",
+            "../../assets/imgs/products/women/jumpsuits/MANGO Black & White Printed Basic Jumpsuit/3.webp",
+            "../../assets/imgs/products/women/jumpsuits/MANGO Black & White Printed Basic Jumpsuit/4.webp"
+        ],
+        "price": 4590,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "women",
+        "category": "jumpsuits",
+        "brand": "Marie Claire",
+        "name": "Solid Basic Jumpsuit",
+        "color": "Brown",
+        "imgs": [
+            "../../assets/imgs/products/women/jumpsuits/Marie Claire Brown Solid Basic Jumpsuit/1.webp",
+            "../../assets/imgs/products/women/jumpsuits/Marie Claire Brown Solid Basic Jumpsuit/2.jpeg",
+            "../../assets/imgs/products/women/jumpsuits/Marie Claire Brown Solid Basic Jumpsuit/3.webp",
+            "../../assets/imgs/products/women/jumpsuits/Marie Claire Brown Solid Basic Jumpsuit/4.webp"
+        ],
+        "oldPrice": 2699,
+        "price": 1079,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "women",
+        "category": "jumpsuits",
+        "brand": "Mast & Harbour",
+        "name": "Solid Gathers Culotte Jumpsuit",
+        "color": "Navy Blue",
+        "imgs": [
+            "../../assets/imgs/products/women/jumpsuits/Mast & Harbour Women Navy Blue Solid Gathers Culotte Jumpsuit/1.webp",
+            "../../assets/imgs/products/women/jumpsuits/Mast & Harbour Women Navy Blue Solid Gathers Culotte Jumpsuit/2.jpeg",
+            "../../assets/imgs/products/women/jumpsuits/Mast & Harbour Women Navy Blue Solid Gathers Culotte Jumpsuit/3.webp",
+            "../../assets/imgs/products/women/jumpsuits/Mast & Harbour Women Navy Blue Solid Gathers Culotte Jumpsuit/4.jpeg"
+        ],
+        "price": 1139,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "women",
+        "category": "jumpsuits",
+        "brand": "max",
+        "name": "Striped Basic Jumpsuit",
+        "color": "Black & White",
+        "imgs": [
+            "../../assets/imgs/products/women/jumpsuits/max Women Black & White Striped Basic Jumpsuit/1.webp",
+            "../../assets/imgs/products/women/jumpsuits/max Women Black & White Striped Basic Jumpsuit/2.webp",
+            "../../assets/imgs/products/women/jumpsuits/max Women Black & White Striped Basic Jumpsuit/3.webp",
+            "../../assets/imgs/products/women/jumpsuits/max Women Black & White Striped Basic Jumpsuit/4.webp"
+        ],
+        "oldPrice": 1995,
+        "price": 758,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "women",
+        "category": "jumpsuits",
+        "brand": "Mayra",
+        "name": "Striped Basic Jumpsuit",
+        "color": "Multicoloured",
+        "imgs": [
+            "../../assets/imgs/products/women/jumpsuits/Mayra Women Multicoloured Striped Basic Jumpsuit/1.webp",
+            "../../assets/imgs/products/women/jumpsuits/Mayra Women Multicoloured Striped Basic Jumpsuit/2.jpeg",
+            "../../assets/imgs/products/women/jumpsuits/Mayra Women Multicoloured Striped Basic Jumpsuit/3.webp",
+            "../../assets/imgs/products/women/jumpsuits/Mayra Women Multicoloured Striped Basic Jumpsuit/4.webp"
+        ],
+        "price": 1399,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "women",
+        "category": "jumpsuits",
+        "brand": "ONLY",
+        "name": "Striped Basic Jumpsuit",
+        "color": "Mustard Yellow & Navy Blue",
+        "imgs": [
+            "../../assets/imgs/products/women/jumpsuits/ONLY Women Mustard Yellow & Navy Blue Striped Basic Jumpsuit/1.webp",
+            "../../assets/imgs/products/women/jumpsuits/ONLY Women Mustard Yellow & Navy Blue Striped Basic Jumpsuit/2.jpeg",
+            "../../assets/imgs/products/women/jumpsuits/ONLY Women Mustard Yellow & Navy Blue Striped Basic Jumpsuit/3.webp",
+            "../../assets/imgs/products/women/jumpsuits/ONLY Women Mustard Yellow & Navy Blue Striped Basic Jumpsuit/4.webp"
+        ],
+        "oldPrice": 3999,
+        "price": 2399,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "women",
+        "category": "jumpsuits",
+        "brand": "QUIERO",
+        "name": "Printed Basic Jumpsuit",
+        "color": "Black & Brown",
+        "imgs": [
+            "../../assets/imgs/products/women/jumpsuits/QUIERO Women Black & Brown Printed Basic Jumpsuit/1.webp",
+            "../../assets/imgs/products/women/jumpsuits/QUIERO Women Black & Brown Printed Basic Jumpsuit/2.webp",
+            "../../assets/imgs/products/women/jumpsuits/QUIERO Women Black & Brown Printed Basic Jumpsuit/3.webp",
+            "../../assets/imgs/products/women/jumpsuits/QUIERO Women Black & Brown Printed Basic Jumpsuit/4.webp"
+        ],
+        "price": 1187,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "women",
+        "category": "jumpsuits",
+        "brand": "Roadster",
+        "name": "Colourblocked Pure Cotton Knitted Basic Jogger Jumpsuit",
+        "color": "Blue & Rust Orange",
+        "imgs": [
+            "../../assets/imgs/products/women/jumpsuits/Roadster Women Blue & Rust Orange Colourblocked Pure Cotton Knitted Basic Jogger Jumpsuit/1.webp",
+            "../../assets/imgs/products/women/jumpsuits/Roadster Women Blue & Rust Orange Colourblocked Pure Cotton Knitted Basic Jogger Jumpsuit/2.jpeg",
+            "../../assets/imgs/products/women/jumpsuits/Roadster Women Blue & Rust Orange Colourblocked Pure Cotton Knitted Basic Jogger Jumpsuit/3.jpeg",
+            "../../assets/imgs/products/women/jumpsuits/Roadster Women Blue & Rust Orange Colourblocked Pure Cotton Knitted Basic Jogger Jumpsuit/4.webp"
+        ],
+        "oldPrice": 2299,
+        "price": 919,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "women",
+        "category": "jumpsuits",
+        "brand": "SASSAFRAS",
+        "name": "Solid Basic Jumpsuit",
+        "color": "Maroon",
+        "imgs": [
+            "../../assets/imgs/products/women/jumpsuits/SASSAFRAS Women Maroon Solid Basic Jumpsuit/1.webp",
+            "../../assets/imgs/products/women/jumpsuits/SASSAFRAS Women Maroon Solid Basic Jumpsuit/2.jpeg",
+            "../../assets/imgs/products/women/jumpsuits/SASSAFRAS Women Maroon Solid Basic Jumpsuit/3.webp",
+            "../../assets/imgs/products/women/jumpsuits/SASSAFRAS Women Maroon Solid Basic Jumpsuit/4.webp"
+        ],
+        "price": 674,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "women",
+        "category": "jumpsuits",
+        "brand": "SIRIKIT",
+        "name": "Striped Basic Jumpsuit",
+        "color": "Mustard Brown & Black",
+        "imgs": [
+            "../../assets/imgs/products/women/jumpsuits/SIRIKIT Women Mustard Brown & Black Striped Basic Jumpsuit/1.webp",
+            "../../assets/imgs/products/women/jumpsuits/SIRIKIT Women Mustard Brown & Black Striped Basic Jumpsuit/2.webp",
+            "../../assets/imgs/products/women/jumpsuits/SIRIKIT Women Mustard Brown & Black Striped Basic Jumpsuit/3.webp",
+            "../../assets/imgs/products/women/jumpsuits/SIRIKIT Women Mustard Brown & Black Striped Basic Jumpsuit/4.webp"
+        ],
+        "oldPrice": 2216,
+        "price": 649,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "women",
+        "category": "jumpsuits",
+        "brand": "THREAD MUSTER",
+        "name": "Solid Basic Jumpsuit",
+        "color": "Mustard Yellow",
+        "imgs": [
+            "../../assets/imgs/products/women/jumpsuits/THREAD MUSTER Women Mustard Yellow Solid Basic Jumpsuit/1.webp",
+            "../../assets/imgs/products/women/jumpsuits/THREAD MUSTER Women Mustard Yellow Solid Basic Jumpsuit/2.webp",
+            "../../assets/imgs/products/women/jumpsuits/THREAD MUSTER Women Mustard Yellow Solid Basic Jumpsuit/3.webp",
+            "../../assets/imgs/products/women/jumpsuits/THREAD MUSTER Women Mustard Yellow Solid Basic Jumpsuit/4.webp"
+        ],
+        "price": 1299,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "women",
+        "category": "jumpsuits",
+        "brand": "Tokyo Talkies",
+        "name": "Solid Basic Jumpsuit",
+        "color": "Green",
+        "imgs": [
+            "../../assets/imgs/products/women/jumpsuits/Tokyo Talkies Women Green Solid Basic Jumpsuit/1.webp",
+            "../../assets/imgs/products/women/jumpsuits/Tokyo Talkies Women Green Solid Basic Jumpsuit/2.jpeg",
+            "../../assets/imgs/products/women/jumpsuits/Tokyo Talkies Women Green Solid Basic Jumpsuit/3.webp",
+            "../../assets/imgs/products/women/jumpsuits/Tokyo Talkies Women Green Solid Basic Jumpsuit/4.webp"
+        ],
+        "oldPrice": 2149,
+        "price": 859,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "women",
+        "category": "jumpsuits",
+        "brand": "U&F",
+        "name": "Self Design Basic Jumpsuit",
+        "color": "Mustard",
+        "imgs": [
+            "../../assets/imgs/products/women/jumpsuits/U&F Women Mustard Self Design Basic Jumpsuit/1.webp",
+            "../../assets/imgs/products/women/jumpsuits/U&F Women Mustard Self Design Basic Jumpsuit/2.webp",
+            "../../assets/imgs/products/women/jumpsuits/U&F Women Mustard Self Design Basic Jumpsuit/3.webp",
+            "../../assets/imgs/products/women/jumpsuits/U&F Women Mustard Self Design Basic Jumpsuit/4.webp"
+        ],
+        "price": 778,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "women",
+        "category": "jumpsuits",
+        "brand": "Vero Moda",
+        "name": "Printed Capri Jumpsuit",
+        "color": "Olive Green & White",
+        "imgs": [
+            "../../assets/imgs/products/women/jumpsuits/Vero Moda Women Olive Green & White Printed Capri Jumpsuit/1.webp",
+            "../../assets/imgs/products/women/jumpsuits/Vero Moda Women Olive Green & White Printed Capri Jumpsuit/2.jpeg",
+            "../../assets/imgs/products/women/jumpsuits/Vero Moda Women Olive Green & White Printed Capri Jumpsuit/3.webp",
+            "../../assets/imgs/products/women/jumpsuits/Vero Moda Women Olive Green & White Printed Capri Jumpsuit/4.webp"
+        ],
+        "oldPrice": 3299,
+        "price": 1319,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "women",
+        "category": "jumpsuits",
+        "brand": "Zima Leto",
+        "name": "Checked Culotte Jumpsuit",
+        "color": "Olive Green & Off-White",
+        "imgs": [
+            "../../assets/imgs/products/women/jumpsuits/Zima Leto Women Olive Green & Off-White Checked Culotte Jumpsuit/1.webp",
+            "../../assets/imgs/products/women/jumpsuits/Zima Leto Women Olive Green & Off-White Checked Culotte Jumpsuit/2.jpeg",
+            "../../assets/imgs/products/women/jumpsuits/Zima Leto Women Olive Green & Off-White Checked Culotte Jumpsuit/3.webp",
+            "../../assets/imgs/products/women/jumpsuits/Zima Leto Women Olive Green & Off-White Checked Culotte Jumpsuit/4.webp"
+        ],
+        "price": 999,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "women",
+        "category": "dresses",
+        "brand": "Anouk",
+        "name": "Chevron Printed A-Line Dress",
+        "color": "Maroon & Black",
+        "imgs": [
+            "../../assets/imgs/products/women/dresses/Anouk Women Maroon & Black Chevron Printed A-Line Dress/1.webp",
+            "../../assets/imgs/products/women/dresses/Anouk Women Maroon & Black Chevron Printed A-Line Dress/2.jpeg",
+            "../../assets/imgs/products/women/dresses/Anouk Women Maroon & Black Chevron Printed A-Line Dress/3.webp",
+            "../../assets/imgs/products/women/dresses/Anouk Women Maroon & Black Chevron Printed A-Line Dress/4.webp"
+        ],
+        "price": 759,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "women",
+        "category": "dresses",
+        "brand": "Athena",
+        "name": "Solid Sheath Dress",
+        "color": "Black",
+        "imgs": [
+            "../../assets/imgs/products/women/dresses/Athena Women Black Solid Sheath Dress/1.webp",
+            "../../assets/imgs/products/women/dresses/Athena Women Black Solid Sheath Dress/2.jpeg",
+            "../../assets/imgs/products/women/dresses/Athena Women Black Solid Sheath Dress/3.webp",
+            "../../assets/imgs/products/women/dresses/Athena Women Black Solid Sheath Dress/4.webp"
+        ],
+        "oldPrice": 1999,
+        "price": 999,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "women",
+        "category": "dresses",
+        "brand": "Berrylush",
+        "name": "Crepe Maxi Dress",
+        "color": "Green",
+        "imgs": [
+            "../../assets/imgs/products/women/dresses/Berrylush Green Crepe Maxi Dress/1.webp",
+            "../../assets/imgs/products/women/dresses/Berrylush Green Crepe Maxi Dress/2.jpeg",
+            "../../assets/imgs/products/women/dresses/Berrylush Green Crepe Maxi Dress/3.webp",
+            "../../assets/imgs/products/women/dresses/Berrylush Green Crepe Maxi Dress/4.webp"
+        ],
+        "price": 899,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "women",
+        "category": "dresses",
+        "brand": "Deewa",
+        "name": "Floral Printed A-Line Dress with Belt",
+        "color": "White & Pink",
+        "imgs": [
+            "../../assets/imgs/products/women/dresses/Deewa Women White & Pink Floral Printed A-Line Dress with Belt/1.webp",
+            "../../assets/imgs/products/women/dresses/Deewa Women White & Pink Floral Printed A-Line Dress with Belt/2.jpeg",
+            "../../assets/imgs/products/women/dresses/Deewa Women White & Pink Floral Printed A-Line Dress with Belt/3.webp",
+            "../../assets/imgs/products/women/dresses/Deewa Women White & Pink Floral Printed A-Line Dress with Belt/4.webp"
+        ],
+        "oldPrice": 1995,
+        "price": 758,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "women",
+        "category": "dresses",
+        "brand": "DOROTHY PERKINS",
+        "name": "Women Floral Print Midi A-Line Dress",
+        "color": "Black & Pink",
+        "imgs": [
+            "../../assets/imgs/products/women/dresses/DOROTHY PERKINS Women Black & Pink Floral Print Midi A-Line Dress/1.webp",
+            "../../assets/imgs/products/women/dresses/DOROTHY PERKINS Women Black & Pink Floral Print Midi A-Line Dress/2.jpeg",
+            "../../assets/imgs/products/women/dresses/DOROTHY PERKINS Women Black & Pink Floral Print Midi A-Line Dress/3.webp",
+            "../../assets/imgs/products/women/dresses/DOROTHY PERKINS Women Black & Pink Floral Print Midi A-Line Dress/4.webp"
+        ],
+        "price": 2992,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "women",
+        "category": "dresses",
+        "brand": "DressBerry",
+        "name": "Striped Maxi Sustainable ECOVERO Dress",
+        "color": "Pink & Black",
+        "imgs": [
+            "../../assets/imgs/products/women/dresses/DressBerry Pink & Black Striped Maxi Sustainable ECOVERO Dress/1.webp",
+            "../../assets/imgs/products/women/dresses/DressBerry Pink & Black Striped Maxi Sustainable ECOVERO Dress/2.webp",
+            "../../assets/imgs/products/women/dresses/DressBerry Pink & Black Striped Maxi Sustainable ECOVERO Dress/3.webp",
+            "../../assets/imgs/products/women/dresses/DressBerry Pink & Black Striped Maxi Sustainable ECOVERO Dress/4.webp"
+        ],
+        "oldPrice": 1799,
+        "price": 1079,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "women",
+        "category": "dresses",
+        "brand": "H&M",
+        "name": "Oversized Rugby Shirt Dress",
+        "color": "Beige & Blue",
+        "imgs": [
+            "../../assets/imgs/products/women/dresses/H&M Women Beige & Blue Oversized Rugby Shirt Dress/1.jpeg",
+            "../../assets/imgs/products/women/dresses/H&M Women Beige & Blue Oversized Rugby Shirt Dress/2.jpeg",
+            "../../assets/imgs/products/women/dresses/H&M Women Beige & Blue Oversized Rugby Shirt Dress/3.jpeg",
+            "../../assets/imgs/products/women/dresses/H&M Women Beige & Blue Oversized Rugby Shirt Dress/4.jpeg"
+        ],
+        "price": 1499,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "women",
+        "category": "dresses",
+        "brand": "Harpa",
+        "name": "Printed A-Line Dress",
+        "color": "Black",
+        "imgs": [
+            "../../assets/imgs/products/women/dresses/Harpa Women Black Printed A-Line Dress/1.webp",
+            "../../assets/imgs/products/women/dresses/Harpa Women Black Printed A-Line Dress/2.jpeg",
+            "../../assets/imgs/products/women/dresses/Harpa Women Black Printed A-Line Dress/3.webp",
+            "../../assets/imgs/products/women/dresses/Harpa Women Black Printed A-Line Dress/4.webp"
+        ],
+        "oldPrice": 1999,
+        "price": 899,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "women",
+        "category": "dresses",
+        "brand": "HERE&NOW",
+        "name": "Ethnic Print Pure Cotton A-Line Midi Dress with Belt",
+        "color": "Green & Navy Blue",
+        "imgs": [
+            "../../assets/imgs/products/women/dresses/HERE&NOW Women Green & Navy Blue Ethnic Print Pure Cotton A-Line Midi Dress with Belt/1.webp",
+            "../../assets/imgs/products/women/dresses/HERE&NOW Women Green & Navy Blue Ethnic Print Pure Cotton A-Line Midi Dress with Belt/2.jpeg",
+            "../../assets/imgs/products/women/dresses/HERE&NOW Women Green & Navy Blue Ethnic Print Pure Cotton A-Line Midi Dress with Belt/3.jpeg",
+            "../../assets/imgs/products/women/dresses/HERE&NOW Women Green & Navy Blue Ethnic Print Pure Cotton A-Line Midi Dress with Belt/4.jpeg"
+        ],
+        "price": 1599,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "women",
+        "category": "dresses",
+        "brand": "KASSUALLY",
+        "name": "Floral Printed Fit and Flare Dress",
+        "color": "Turquoise Blue & Beige",
+        "imgs": [
+            "../../assets/imgs/products/women/dresses/KASSUALLY Women Turquoise Blue & Beige Floral Printed Fit and Flare Dress/1.webp",
+            "../../assets/imgs/products/women/dresses/KASSUALLY Women Turquoise Blue & Beige Floral Printed Fit and Flare Dress/2.jpeg",
+            "../../assets/imgs/products/women/dresses/KASSUALLY Women Turquoise Blue & Beige Floral Printed Fit and Flare Dress/3.webp",
+            "../../assets/imgs/products/women/dresses/KASSUALLY Women Turquoise Blue & Beige Floral Printed Fit and Flare Dress/4.webp"
+        ],
+        "oldPrice": 2699,
+        "price": 1241,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "women",
+        "category": "dresses",
+        "brand": "plusS",
+        "name": "Geometric Printed Midi A-Line Dress",
+        "color": "Navy Blue & Yellow",
+        "imgs": [
+            "../../assets/imgs/products/women/dresses/plusS Women Navy Blue & Yellow Geometric Printed Midi A-Line Dress/1.webp",
+            "../../assets/imgs/products/women/dresses/plusS Women Navy Blue & Yellow Geometric Printed Midi A-Line Dress/2.jpeg",
+            "../../assets/imgs/products/women/dresses/plusS Women Navy Blue & Yellow Geometric Printed Midi A-Line Dress/3.webp",
+            "../../assets/imgs/products/women/dresses/plusS Women Navy Blue & Yellow Geometric Printed Midi A-Line Dress/4.webp"
+        ],
+        "price": 959,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "women",
+        "category": "dresses",
+        "brand": "Purple State",
+        "name": "Checked Fit and Flare Dress",
+        "color": "Navy Blue & Maroon",
+        "imgs": [
+            "../../assets/imgs/products/women/dresses/Purple State Women Navy Blue & Maroon Checked Fit and Flare Dress/1.jpeg",
+            "../../assets/imgs/products/women/dresses/Purple State Women Navy Blue & Maroon Checked Fit and Flare Dress/2.jpeg",
+            "../../assets/imgs/products/women/dresses/Purple State Women Navy Blue & Maroon Checked Fit and Flare Dress/3.jpeg",
+            "../../assets/imgs/products/women/dresses/Purple State Women Navy Blue & Maroon Checked Fit and Flare Dress/4.jpeg"
+        ],
+        "oldPrice": 1999,
+        "price": 599,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "women",
+        "category": "dresses",
+        "brand": "RARE",
+        "name": "Printed Maxi Dress",
+        "color": "Blue",
+        "imgs": [
+            "../../assets/imgs/products/women/dresses/RARE Women Blue Printed Maxi Dress/1.webp",
+            "../../assets/imgs/products/women/dresses/RARE Women Blue Printed Maxi Dress/2.webp",
+            "../../assets/imgs/products/women/dresses/RARE Women Blue Printed Maxi Dress/3.webp",
+            "../../assets/imgs/products/women/dresses/RARE Women Blue Printed Maxi Dress/4.webp"
+        ],
+        "price": 959,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "women",
+        "category": "dresses",
+        "brand": "Sangria",
+        "name": "Ethnic Motifs Print Shirt Dress",
+        "color": "Blue & White",
+        "imgs": [
+            "../../assets/imgs/products/women/dresses/Sangria Blue & White Ethnic Motifs Print Shirt Dress/1.jpeg",
+            "../../assets/imgs/products/women/dresses/Sangria Blue & White Ethnic Motifs Print Shirt Dress/2.webp",
+            "../../assets/imgs/products/women/dresses/Sangria Blue & White Ethnic Motifs Print Shirt Dress/3.webp",
+            "../../assets/imgs/products/women/dresses/Sangria Blue & White Ethnic Motifs Print Shirt Dress/4.jpeg"
+        ],
+        "oldPrice": 1899,
+        "price": 759,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "women",
+        "category": "dresses",
+        "brand": "SASSAFRAS",
+        "name": "Solid Tiered Maxi Dress",
+        "color": "Maroon",
+        "imgs": [
+            "../../assets/imgs/products/women/dresses/SASSAFRAS Women Maroon Solid Tiered Maxi Dress/1.webp",
+            "../../assets/imgs/products/women/dresses/SASSAFRAS Women Maroon Solid Tiered Maxi Dress/2.jpeg",
+            "../../assets/imgs/products/women/dresses/SASSAFRAS Women Maroon Solid Tiered Maxi Dress/3.webp",
+            "../../assets/imgs/products/women/dresses/SASSAFRAS Women Maroon Solid Tiered Maxi Dress/4.webp"
+        ],
+        "price": 879,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "women",
+        "category": "dresses",
+        "brand": "Sera",
+        "name": "Printed Two-Piece Dress",
+        "color": "Black & White",
+        "imgs": [
+            "../../assets/imgs/products/women/dresses/Sera Women Black & White Printed Two-Piece Dress/1.webp",
+            "../../assets/imgs/products/women/dresses/Sera Women Black & White Printed Two-Piece Dress/2.jpeg",
+            "../../assets/imgs/products/women/dresses/Sera Women Black & White Printed Two-Piece Dress/3.webp",
+            "../../assets/imgs/products/women/dresses/Sera Women Black & White Printed Two-Piece Dress/4.webp"
+        ],
+        "oldPrice": 1894,
+        "price": 947,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "women",
+        "category": "dresses",
+        "brand": "SIRIKIT",
+        "name": "Striped A-Line Dress",
+        "color": "Blue",
+        "imgs": [
+            "../../assets/imgs/products/women/dresses/SIRIKIT Women Blue Striped A-Line Dress/1.webp",
+            "../../assets/imgs/products/women/dresses/SIRIKIT Women Blue Striped A-Line Dress/2.jpeg",
+            "../../assets/imgs/products/women/dresses/SIRIKIT Women Blue Striped A-Line Dress/3.webp",
+            "../../assets/imgs/products/women/dresses/SIRIKIT Women Blue Striped A-Line Dress/4.webp"
+        ],
+        "price": 549,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "women",
+        "category": "dresses",
+        "brand": "Tokyo Talkies",
+        "name": "Floral Print Flared Maxi Dress with a Belt",
+        "color": "Black",
+        "imgs": [
+            "../../assets/imgs/products/women/dresses/Tokyo Talkies Black Floral Print Flared Maxi Dress with a Belt/1.webp",
+            "../../assets/imgs/products/women/dresses/Tokyo Talkies Black Floral Print Flared Maxi Dress with a Belt/2.jpeg",
+            "../../assets/imgs/products/women/dresses/Tokyo Talkies Black Floral Print Flared Maxi Dress with a Belt/3.webp",
+            "../../assets/imgs/products/women/dresses/Tokyo Talkies Black Floral Print Flared Maxi Dress with a Belt/4.webp"
+        ],
+        "oldPrice": 2249,
+        "price": 899,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    },
+    {
+        "section": "women",
+        "category": "dresses",
+        "brand": "Vishudh",
+        "name": "Printed Fit and Flare Dress",
+        "color": "Blue",
+        "imgs": [
+            "../../assets/imgs/products/women/dresses/Vishudh Women Blue Floral Printed Fit and Flare Dress/1.webp",
+            "../../assets/imgs/products/women/dresses/Vishudh Women Blue Floral Printed Fit and Flare Dress/2.jpeg",
+            "../../assets/imgs/products/women/dresses/Vishudh Women Blue Floral Printed Fit and Flare Dress/3.webp",
+            "../../assets/imgs/products/women/dresses/Vishudh Women Blue Floral Printed Fit and Flare Dress/4.webp"
+        ],
+        "price": 1099,
+        "qtyLeft": {
+            "s": 2,
+            "m": 0,
+            "l": 5
+        }
+    },
+    {
+        "section": "women",
+        "category": "dresses",
+        "brand": "U&F",
+        "name": "Solid Fit and Flare Dress",
+        "color": "Navy Blue",
+        "imgs": [
+            "../../assets/imgs/products/women/dresses/U&F Women Navy Blue Solid Fit and Flare Dress/1.webp",
+            "../../assets/imgs/products/women/dresses/U&F Women Navy Blue Solid Fit and Flare Dress/2.jpeg",
+            "../../assets/imgs/products/women/dresses/U&F Women Navy Blue Solid Fit and Flare Dress/3.webp",
+            "../../assets/imgs/products/women/dresses/U&F Women Navy Blue Solid Fit and Flare Dress/4.webp"
+        ],
+        "oldPrice": 1899,
+        "price": 835,
+        "qtyLeft": {
+            "s": 4,
+            "m": 3,
+            "l": 1
+        }
+    }
+]

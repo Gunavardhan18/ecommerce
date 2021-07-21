@@ -1,0 +1,231 @@
+<app-header></app-header>
+
+<img src="../../assets/imgs/banners/banner1.webp" alt="" class="bg-light mb-5">
+<div class="text-center">
+    <div class="fs-2 fw-bold mt-5 mb-3">WELCOME, SHOPPER!</div>
+    <div class="col-6 fs-5 fw-light mx-auto mb-5">You've reached your destination! Explore a wide variety of jackets,
+        t-shirts, jumpsuits and dresses from top brands while you're here!</div>
+    <div class="row row-cols-4 gy-5 px-5 mb-5">
+        <div *ngFor="let product of products" class="col">
+            <a (click)="goToProductDetail(product._id.$oid)" href="javascript:void(0)"
+                class="text-decoration-none text-dark">
+                <div class="card rounded-0 border-0 shadow-lg">
+                    <img [src]="product.imgs[0]" alt="" class="card-img-top rounded-0">
+                    <div class="card-body">
+                        <h5 class="card-title fs-5 fw-light text-truncate">{{product.name}}</h5>
+                        <p class="card-text fs-5">
+                            <span *ngIf="product.oldPrice"
+                                class="fw-light text-muted text-decoration-line-through me-2">&#8377;{{product.oldPrice}}</span><span
+                                class="fw-bold">&#8377;{{product.price}}</span>
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- <button class="btn btn-lg btn-primary fw-bold px-5 rounded-0 mb-5 shadow-lg">VIEW ALL</button> -->
+    <div class="card bg-light text-dark mb-5">
+        <img src="../../assets/imgs/banners/banner2.webp" class="card-img" alt="">
+        <div class="card-img-overlay d-flex align-items-center">
+            <!-- <h5 class="card-title col-6 fs-1 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing.</h5> -->
+        </div>
+    </div>
+</div>
+<!-- <div class="row px-5 pb-5 mb-5">
+    <div class="col">
+        <div class="card bg-light text-dark">
+            <img src="../../assets/imgs/jackets.webp" class="card-img" alt="">
+            <div class="card-img-overlay d-flex align-items-end">
+                <h5 class="card-title fs-3 mx-auto">JACKETS</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card bg-light text-dark">
+            <img src="../../assets/imgs/dresses.jpeg" class="card-img" alt="">
+            <div class="card-img-overlay d-flex align-items-end">
+                <h5 class="card-title fs-3 mx-auto">DRESSES</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card bg-light text-dark">
+            <img src="../../assets/imgs/watches.jpeg" class="card-img" alt="">
+            <div class="card-img-overlay d-flex align-items-end">
+                <h5 class="card-title fs-3 mx-auto">WATCHES</h5>
+            </div>
+        </div>
+    </div>
+</div> -->
+<div id="carouselExampleIndicators" class="carousel slide carousel-dark text-center px-5 py-5 mb-5"
+    data-bs-ride="carousel">
+    <div class="carousel-indicators align-items-center">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+            class="active bg-secondary" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"
+            class="bg-secondary"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"
+            class="bg-secondary"></button>
+    </div>
+    <div class="carousel-inner my-5">
+        <div class="carousel-item active">
+            <div class="row">
+                <div class="col">
+                    <div class="card border-0">
+                        <img src="../../assets/imgs/users/user1.jpeg" class="card-img-top bg-light mx-auto shadow-lg"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Customer Name</h5>
+                            <div class="text-warning mb-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <p class="card-text fs-5 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Accusantium
+                                sit ex suscipit incidunt aliquam excepturi. Dolorem natus nihil, culpa et aut id,
+                                recusandae ratione.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0">
+                        <img src="../../assets/imgs/users/user2.jpeg" class="card-img-top bg-light mx-auto shadow-lg"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Customer Name</h5>
+                            <div class="text-warning mb-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <p class="card-text fs-5 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Accusantium
+                                sit ex suscipit incidunt aliquam excepturi. Dolorem natus nihil, culpa et aut id,
+                                recusandae ratione.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0">
+                        <img src="../../assets/imgs/users/user3.jpeg" class="card-img-top bg-light mx-auto shadow-lg"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Customer Name</h5>
+                            <div class="text-warning mb-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <p class="card-text fs-5 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Accusantium
+                                sit ex suscipit incidunt aliquam excepturi. Dolorem natus nihil, culpa et aut id,
+                                recusandae ratione.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="row">
+                <div class="col">
+                    <div class="card border-0">
+                        <img src="../../assets/imgs/users/user4.jpeg" class="card-img-top bg-light mx-auto shadow-lg"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Customer Name</h5>
+                            <div class="text-warning mb-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <p class="card-text fs-5 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Accusantium
+                                sit ex suscipit incidunt aliquam excepturi. Dolorem natus nihil, culpa et aut id,
+                                recusandae ratione.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0">
+                        <img src="../../assets/imgs/users/user5.jpeg" class="card-img-top bg-light mx-auto shadow-lg"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Customer Name</h5>
+                            <div class="text-warning mb-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <p class="card-text fs-5 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Accusantium
+                                sit ex suscipit incidunt aliquam excepturi. Dolorem natus nihil, culpa et aut id,
+                                recusandae ratione.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0">
+                        <img src="../../assets/imgs/users/user6.jpeg" class="card-img-top bg-light mx-auto shadow-lg"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Customer Name</h5>
+                            <div class="text-warning mb-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <p class="card-text fs-5 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Accusantium
+                                sit ex suscipit incidunt aliquam excepturi. Dolorem natus nihil, culpa et aut id,
+                                recusandae ratione.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="row">
+                <div class="col">
+                    <div class="card border-0">
+                        <img src="../../assets/imgs/users/user7.jpeg" class="card-img-top bg-light mx-auto shadow-lg"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Customer Name</h5>
+                            <div class="text-warning mb-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <p class="card-text fs-5 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Accusantium
+                                sit ex suscipit incidunt aliquam excepturi. Dolorem natus nihil, culpa et aut id,
+                                recusandae ratione.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0">
+                        <img src="../../assets/imgs/users/user8.jpeg" class="card-img-top bg-light mx-auto shadow-lg"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Customer Name</h5>
+                            <div class="text-warning mb-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <p class="card-text fs-5 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Accusantium
+                                sit ex suscipit incidunt aliquam excepturi. Dolorem natus nihil, culpa et aut id,
+                                recusandae ratione.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0">
+                        <img src="../../assets/imgs/users/user9.jpeg" class="card-img-top bg-light mx-auto shadow-lg"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Customer Name</h5>
+                            <div class="text-warning mb-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <p class="card-text fs-5 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Accusantium
+                                sit ex suscipit incidunt aliquam excepturi. Dolorem natus nihil, culpa et aut id,
+                                recusandae ratione.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                                                                            data-bs-slide="prev">
+                                                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                                            <span class="visually-hidden">Previous</span>
+                                                                        </button>
+                                                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                                                                        data-bs-slide="next">
+                                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                                        <span class="visually-hidden">Next</span>
+                                                                    </button> -->
+</div>
+
+<app-footer></app-footer>

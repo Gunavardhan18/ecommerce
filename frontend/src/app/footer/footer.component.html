@@ -1,0 +1,68 @@
+<div class="bg-light bg-gradient px-5 pt-4 pb-5 border-top">
+    <div class="row mb-5">
+        <div class="col-3">
+            <div class="fs-3 mb-3">SHOPPER'S DESTINY</div>
+            <div class="small fw-light">No. 1 online fashion destination justifies its fashion relevance by bringing
+                something new and chic to the table on the daily.</div>
+        </div>
+        <div class="col-4">
+            <div class="row gx-0 lh-1">
+                <div class="col">
+                    <nav class="nav flex-column">
+                        <!-- <a class="nav-link active" aria-current="page" href="#">Active</a> -->
+                        <a class="nav-link fw-light link-dark" href="#">Home</a>
+                        <a (click)="goToProductListing(section)" *ngFor="let section of sections"
+                            class="nav-link fw-light link-dark text-capitalize"
+                            href="javascript:void(0)">{{section}}</a>
+                        <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+                    </nav>
+                </div>
+                <div class="col">
+                    <nav class="nav flex-column">
+                        <a class="nav-link fw-light link-dark" href="javascript:void(0)">Search</a>
+                        <a class="nav-link fw-light link-dark" href="javascript:void(0)">Privacy Policy</a>
+                        <a class="nav-link fw-light link-dark" href="javascript:void(0)">Terms & Conditions</a>
+                        <a class="nav-link fw-light link-dark" href="javascript:void(0)">Return & Refunds</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <form action="">
+                <label for="newsletter" class="form-label fs-5 fw-bold mb-3">NEWSLETTER</label>
+                <div class="input-group mb-3 input-group-lg shadow">
+                    <input type="email" class="form-control fw-light rounded-0 border-0" placeholder="Email Here"
+                        aria-label="Recipient's username" aria-describedby="button-addon2" id="newsletter">
+                    <button class="btn btn-primary fw-bold px-5 rounded-0" type="button" id="button-addon2">SIGN
+                        UP</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="fs-5 fw-bold mb-1">FOLLOW US</div>
+            <nav class="nav mb-2">
+                <!-- <a class="nav-link active" aria-current="page" href="#">Active</a> -->
+                <a class="nav-link ps-0" href="javascript:void(0)"><i class="fab fa-instagram fa-lg"></i></a>
+                <a class="nav-link ps-0" href="javascript:void(0)"><i class="fab fa-facebook-f fa-lg"></i></a>
+                <a class="nav-link ps-0" href="javascript:void(0)"><i class="fab fa-twitter fa-lg"></i></a>
+                <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+            </nav>
+            <div class="d-flex align-items-center small fw-light text-muted"><i
+                    class="far fa-copyright fa-xs me-1"></i>2021,
+                Shopper's Destiny
+            </div>
+        </div>
+        <div class="col-4 d-flex justify-content-between align-items-end">
+            <img src="../../assets/imgs/payment/visa.svg" alt="" class="bg-white bg-gradient rounded border shadow-lg">
+            <img src="../../assets/imgs/payment/mastercard.svg" alt=""
+                class="bg-white bg-gradient rounded border shadow-lg">
+            <img src="../../assets/imgs/payment/americanExpress.svg" alt=""
+                class="bg-white bg-gradient rounded border shadow-lg">
+            <img src="../../assets/imgs/payment/razorpay.svg" alt=""
+                class="bg-white bg-gradient rounded border shadow-lg">
+            <img src="../../assets/imgs/payment/cod.png" alt="" class="bg-white bg-gradient rounded border shadow-lg">
+        </div>
+    </div>
+</div>

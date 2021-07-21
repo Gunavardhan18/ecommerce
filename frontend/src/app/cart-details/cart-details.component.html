@@ -1,0 +1,80 @@
+<app-header></app-header>
+
+<div class="p-5">
+    <div class="fs-1 fw-bold mb-5">Cart Details</div>
+    <div class="d-flex mb-5">
+        <div class="col-8 me-4">
+            <div *ngIf="empty" class="display-1 fw-light">Your cart is empty! :(</div>
+            <div class="mb-4">
+                <div *ngFor="let product of products" class="d-flex p-2 border mb-4">
+                    <div class="col-2">
+                        <a (click)="goToProductDetail(product._id.$oid)" href="javascript:void(0)"><img
+                                [src]="product.imgs[0]" alt="" class="shadow-lg"></a>
+                    </div>
+                    <div class="col-6 d-flex flex-column justify-content-between ms-4 me-3 my-1">
+                        <div>
+                            <div class="fs-5">{{product.name}}</div>
+                            <div class="fw-light mb-3">Color: {{product.color}}</div>
+                        </div>
+                        <div>
+                            <span class="badge rounded-pill bg-secondary text-uppercase me-1">{{product.size}}</span>
+                            <div class="btn-group mb-1" role="group" aria-label="Button group with nested dropdown">
+                                <button type="button"
+                                    class="btn fw-bold px-3 rounded-0 border-secondary disabled">{{product.qty}}</button>
+                                <div class="btn-group" role="group">
+                                    <button id="btnGroupDrop1" type="button"
+                                        class="btn dropdown-toggle px-3 rounded-0 border-dark" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                        <li *ngFor="let option of product.qtyOptions"><a
+                                                (click)="updateQty(option, product)" class="dropdown-item"
+                                                href="javascript:void(0)">{{option}}</a></li>
+                                        <!-- <li><a class="dropdown-item" href="#">Dropdown link</a></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex flex-column justify-content-between ms-5 my-1">
+                        <div>
+                            <div class="fs-5">&#8377; {{product.totalPrice}}</div>
+                            <div class="small text-muted">(Including all taxes)</div>
+                        </div>
+                        <a href="javascript:void(0)" class="text-decoration-none">
+                            <div (click)="remove(product)" class="text-danger">REMOVE</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-end">
+                <a (click)="goToLanding()" href="javascript:void(0)"><button
+                        class="btn btn-lg btn-outline-primary fw-bold px-5 rounded-0 shadow-lg">CONTINUE
+                        SHOPPING</button></a>
+            </div>
+        </div>
+        <div id="summary" class="col bg-light bg-gradient px-4">
+            <div class="fw-bold mt-4 mb-3">ORDER SUMMARY</div>
+            <div class="row mb-3">
+                <div class="col">Cart Total</div>
+                <div class="col">&#8377; {{cartTotal}}</div>
+            </div>
+            <div class="row">
+                <div class="col">Shipping Charges</div>
+                <div class="col text-success">Free</div>
+            </div>
+            <hr class="my-3">
+            <div class="row fs-5 fw-bold mb-3">
+                <div class="col">Total Payable</div>
+                <div class="col">&#8377; {{cartTotal}}</div>
+            </div>
+            <div class="text-center">
+                <button (click)="buy()" class="btn btn-lg btn-primary fw-bold px-5 rounded-0 shadow-lg"
+                    [disabled]="empty">SECURE CHECKOUT NOW</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

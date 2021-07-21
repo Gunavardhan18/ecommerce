@@ -1,0 +1,51 @@
+<app-header></app-header>
+
+<div class="col-4 text-center px-5 py-4 mx-auto my-5">
+    <div class="mx-2">
+        <div class="fs-1 fw-bold mb-4">Profile Details</div>
+        <form action="" class="fs-5 fw-light text-muted" #profileDetailsForm="ngForm" (ngSubmit)="updateDetails()"
+            novalidate>
+            <div class="form-floating mb-2">
+                <input type="text" class="form-control fs-5 fw-light" id="" placeholder="First name"
+                    [(ngModel)]="profileDetailsModel.firstName" name="firstName" required pattern="^\S*$"
+                    #firstName="ngModel" [class.is-invalid]="firstName.invalid && firstName.touched">
+                <label for="">First name</label>
+                <div *ngIf="firstName.errors">
+                    <small class="text-danger" *ngIf="(firstName.errors.required && firstName.touched)">First Name
+                        is required.</small>
+                    <small class="text-danger" *ngIf="firstName.errors.pattern">Must be spaceless</small>
+                </div>
+                <div class="text-center">
+                    <small class="text-success" *ngIf="!(firstName.errors) && firstName.dirty">Looks good!</small>
+                </div>
+            </div>
+            <div class="form-floating mb-2">
+                <input type="email" class="form-control fs-5 fw-light text-muted bg-white" id="" placeholder="Email ID"
+                    [(ngModel)]="profileDetailsModel.emailID" name="emailID" disabled>
+                <label for="">Email ID</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="tel" class="form-control fs-5 fw-light" id="" placeholder="Mobile number"
+                    [(ngModel)]="profileDetailsModel.mobileNumber" name="mobileNumber" required pattern="^\d{10}$"
+                    #mobileNumber="ngModel" [class.is-invalid]="mobileNumber.invalid && mobileNumber.touched">
+                <label for="">Mobile number</label>
+                <div *ngIf="mobileNumber.errors">
+                    <small class="text-danger" *ngIf="(mobileNumber.errors.required && mobileNumber.touched)">Mobile
+                        number is required.</small>
+                    <small class="text-danger" *ngIf="mobileNumber.errors.pattern">Must be 10 digits.</small>
+                </div>
+                <div class="text-center">
+                    <small class="text-success" *ngIf="!(mobileNumber.errors) && mobileNumber.dirty">Looks good!</small>
+                </div>
+            </div>
+            <div class="d-grid">
+                <button class="btn btn-lg btn-primary fw-bold rounded-0 mb-4 shadow"
+                    [disabled]="profileDetailsForm.form.invalid || profileDetailsForm.form.pristine">UPDATE
+                    DETAILS</button>
+            </div>
+        </form>
+        <a href="javascript:void(0)" class="text-decoration-none">CHANGE PASSWORD</a>
+    </div>
+</div>
+
+<app-footer></app-footer>
