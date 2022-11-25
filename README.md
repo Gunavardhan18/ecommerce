@@ -1,4 +1,3 @@
-# ecommerce
 # Django-backend
 
 ### The frontend can be found here https://github.com/lucidreamer421/ShoppersDestiny-frontend
