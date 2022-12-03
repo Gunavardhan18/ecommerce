@@ -1,6 +1,6 @@
 # Django-backend
 
-### Nginx and AWS are used for Deployment
+### Nginx and AWS have been used for Deployment
 ### MongoDB has been used to handle the database.
 
 ## APIs
